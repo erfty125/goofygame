@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest 
+xmlns:android=
+"http://schemas.android.com/apk/res/android"
+package="com.daun.goofygame"
+versionCode="1984"
+versionName="fard">
+ <uses-permission 
+ android:name=
+ "android.permission.VIBRATE"/>
+
+ <application android:label=
+ "goofygame" >
+  <activity android:name=
+    ".GameActivity"
+    android:screenOrientation=
+    "portrait"
+    android:theme=
+    "@android:style/Theme.Holo.Light.NoActionBar">
+    <intent-filter>
+     <action android:name=
+     "android.intent.action.MAIN"/>
+     <category android:name=
+     "android.intent.category.LAUNCHER"/>
+    </intent-filter>
+   </activity>
+ </application>
+
+</manifest>
